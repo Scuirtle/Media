@@ -1,0 +1,121 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2d2d2d;
+  color: #272727;
+  margin: 100px;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
+.home{
+
+  background-image: url(images/Background.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+
+main {
+
+  min-height: 95vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  align-content: center;
+  text-align: center;
+
+}
+
+footer {
+
+  text-align: center;
+  padding: 16px;
+  color: lightslategrey;
+
+}
+
+header {
+
+  background-color: rgba(154, 154, 154, 0.25);
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 16px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 32px;
+  position: sticky;
+  top: 16px;
+  backdrop-filter: blur(8px) ;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  align-items: center;
+
+}
+
+img {
+
+
+
+}
+
+/* Typography */
+
+h1 {
+font-size: 64px;
+margin: 0;
+font-weight: 700;
+letter-spacing: -2px;
+
+}
+
+h2 {
+
+
+}
+
+p{
+font-weight: 500;
+
+}
+
+a{
+color: rgba(0, 0, 0, 0.5);
+transition: 0.5;
+}
+
+a:hover {
+color: rgb(42, 42, 42);
+
+}
+
+.button {
+  
+font-weight: 500;
+padding: 4px 16px 4px 16px;
+
+}
+
+/*Grid*/
+.grid{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+
+}
